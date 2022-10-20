@@ -1,0 +1,5 @@
+for number in range(1,11):
+    remainder = number % 2
+    if remainder == 1:
+        continue
+    print(number) 
